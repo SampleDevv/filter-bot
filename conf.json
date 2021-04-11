@@ -1,0 +1,19 @@
+{
+    "token": "your-bot-token",
+    "status": "for bad words...",
+
+    "embed": {
+        "color": "#010101"
+    },
+
+    "word_filter": {
+        "bypass": ["role-id-here", "role-id-here"],
+        "blacklist_words": ["your", "words", "here"]
+    },
+
+    "invite_filter": {
+        "bypass": ["role-id-here", "role-id-here"],
+        "blacklist_invites": ["discord.gg", ".gg/", ".gg /", ". gg /", ". gg/", "discord .gg /", "discord.gg /", "discord .gg/", "discord .gg", "discord . gg", "discord. gg", "discord gg", "discordgg", "discord gg /"]
+    }
+
+}
